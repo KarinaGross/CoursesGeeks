@@ -441,6 +441,10 @@ header {
     color: #FFFFFF;
 }
 
+.footer__line {
+    display: none;
+}
+
 @media (min-width: 640px) and (max-width: 1024px) {
     .center__1, .center__2 {
         padding-left: calc(50% - 300px);
@@ -628,9 +632,10 @@ header {
     }
 
     .footer__line {
+        display: inline;
         position: absolute;
         top: 50%;
-        width: 93.75%;
+        width: 600px;
     }
 
     .grey_line_footer {
