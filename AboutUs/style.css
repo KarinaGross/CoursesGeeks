@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(../fonts/NeueMontreal-Regular.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Neue Montreal';
+    src: url(../fonts/NeueMontreal-Medium.otf) format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(../fonts/NeueMontreal-Bold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+} */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +28,8 @@ body {
     background: #1E1E1E;
     min-width: 299px;
     margin: 0px 100px;
+
+    font-family: 'Neue Montreal';
 }
 
 a {
@@ -19,9 +42,163 @@ a {
     padding-right: calc(50% - 700px);
 }
 
-.header {
+/* .header {
     height: 106px;
     border: 1px solid green;
+} */
+
+.header {
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 15.8571%; */
+
+    padding: 30px 0px;
+    height: 45px;
+}
+
+.links_vigits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 68.7142%;
+}
+
+.other__links {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    max-height: 40px;
+}
+
+.main_link {
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.link_courses_geeks {
+    font-size: 24px;
+    line-height: 29px;
+
+    border: 1px solid white;
+    /* background-color: #1E1E1E; */
+}
+
+.link__articles {
+    border: 1px solid white;
+    background: #B286FD;
+}
+
+.link__reviews {
+    color: #000000;
+    background: #B2F042;
+}
+
+.link__about {
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.link__forum {
+    border: 1px solid white;
+    background: #262626;
+}
+
+
+.wrapper {
+    display: none;
+}
+
+#check-menu {
+    display: none;
+}
+
+.label_check_menu {
+    display: block;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.burger-line {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 29px;
+    height: 3px;
+    background: linear-gradient(90deg, #B2F042, #B286FD);
+    transition: .5s all;
+}
+
+.first {
+    top: 18px;
+}
+
+
+.main-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 15px 0px 148px;
+    transform: translateY(100%);
+    visibility: hidden;
+    background-color: #1E1E1E;
+    border-radius: 0px 0px 20px 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: .5s all;
+
+    opacity: 0; 
+    max-height: 0px;
+    font-size: 0px;
+}
+
+.menu_link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0px;
+}
+
+.menu_link:last-child {
+    opacity: .3;
+}
+
+#check-menu:checked ~ .main-menu {
+    /* display: block; */
+    opacity: 1; 
+    max-height: 600px;
+    font-size: 48px;
+    padding: 15px 0px 148px;
+    visibility: visible;
+}
+
+.wrapper #check-menu:checked ~ .label_check_menu .first {
+    transform: translateY(0px) rotate(45deg);
+}
+
+.wrapper #check-menu:checked ~ .label_check_menu .second {
+    transform: translateY(10px) rotate(-45deg);
 }
 
 .main {
@@ -232,8 +409,27 @@ a {
         margin: 0px 20px;
     }
 
+    .wrapper {
+        display: block;
+    }
+
+    .links_vigits {
+        display: none;
+    }
+
+    
+
     .top__section {
         border-radius: 20px;
+
+        background: 
+        radial-gradient(circle 2500px at -32.4285% 138.9285%,
+            rgba(40,0,99,.8) 10%,
+            rgba(178,134,253,0.2) 50% 60%),
+        radial-gradient(circle 800px at 100% -30%,
+            rgba(134,24,185,.8) 40%,
+            rgba(178,134,253,.7))
+         white;
     }
 
     .main__text {
@@ -331,8 +527,35 @@ a {
         margin: 0px 15px;
     }
 
+    .header {
+        position: relative;
+    }
+
+    .links_vigits {
+        display: none;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    #check-menu:checked ~ .main-menu {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
     .top__section {
         border-radius: 10px;
+
+        background: 
+        radial-gradient(circle 2500px at -32.4285% 138.9285%,
+            rgba(40,0,99,.6) 10%,
+            rgba(178,134,253,0.8) 30% 60%),
+        radial-gradient(circle 800px at 100% -30%,
+            rgba(134,24,185,.8) 40%,
+            rgba(178,134,253,.7))
+         white;
     }
 
     .top__title {
