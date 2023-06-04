@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(../fonts/NeueMontreal-Medium.otf) format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -645,6 +652,40 @@ a {
     body {
         margin: 0px 10px;
         min-width: 300px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .nav {
+        padding: 15px 0px;
+        height: 30px;
+    }
+
+    .link_courses_geeks {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 5px 20px;
+    }
+
+    .links_vigits {
+        display: none;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    .label_check_menu {
+        top: 17px;
+        height: 30px;
+    }
+
+    #check-menu:checked ~ .main-menu {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
     }
 
     .center {
