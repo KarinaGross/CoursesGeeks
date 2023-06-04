@@ -12,17 +12,18 @@
 <body>
     <header class="header center">
         <nav class="nav">
-            <a href="#" class="main_link link_courses_geeks">CoursesGeeks</a>
+            <a href="./index.html" class="main_link link_courses_geeks">CoursesGeeks</a>
             <div class="links_vigits">
                 <d class="other__links">
-                    <a href="#" class="main_link link__articles">Articles</a>
-                    <a href="#" class="main_link link__reviews">Reviews</a>
-                    <a href="#" class="main_link link__about">About us</a>
+                    <a href="./Articles/index.html" class="main_link link__articles">Articles</a>
+                    <a href="./Reviews/index.html" class="main_link link__reviews">Reviews</a>
+                    <a href="./AboutUs/index.html" class="main_link link__about">About us</a>
                     <a href="#" class="main_link link__forum">Forum</a>
                 </d>
                 <div class="header__vigits">
                     <a href="#">
-                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="vigit-hover" width="46" height="46" viewBox="0 0 46 46" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M20.8 31.7992V22.9992H17.8666V20.0659H20.8V18.4907C20.8 15.5082 22.2527 14.1992 24.7314 14.1992C25.9186 14.1992 26.5464 14.2872 26.8434 14.3276V17.1326H25.153C24.1007 17.1326 23.7333 17.6877 23.7333 18.8126V20.0659H26.817L26.3982 22.9992H23.7333V31.7992H20.8Z"
                                 fill="white" />
@@ -31,7 +32,8 @@
                     </a>
 
                     <a href="#">
-                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="vigit-hover" width="46" height="46" viewBox="0 0 46 46" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M32.8888 17.2876C32.1647 17.6091 31.3864 17.8254 30.5691 17.9246C31.4015 17.4228 32.0445 16.6325 32.345 15.689C31.5637 16.1517 30.6983 16.4883 29.7789 16.6686C29.0427 15.8843 27.994 15.3945 26.8311 15.3945C24.6016 15.3945 22.7927 17.2034 22.7927 19.433C22.7927 19.7485 22.8287 20.058 22.8979 20.3525C19.5415 20.1842 16.5667 18.5736 14.5745 16.1307C14.226 16.7287 14.0277 17.4228 14.0277 18.165C14.0277 19.5652 14.7398 20.8002 15.8245 21.5243C15.1605 21.5033 14.5385 21.323 13.9946 21.0195C13.9946 21.0376 13.9946 21.0526 13.9946 21.0706C13.9946 23.0267 15.3858 24.6584 17.2338 25.0309C16.8942 25.1241 16.5397 25.1722 16.1701 25.1722C15.9087 25.1722 15.6563 25.1481 15.4099 25.1001C15.9237 26.7016 17.4141 27.8735 19.1809 27.9035C17.8017 28.9883 16.0589 29.6313 14.1659 29.6313C13.8384 29.6313 13.5199 29.6133 13.2043 29.5772C14.9892 30.7221 17.1136 31.3891 19.3942 31.3891C26.8221 31.3891 30.8846 25.2353 30.8846 19.9017C30.8846 19.7245 30.8816 19.5502 30.8726 19.3759C31.6629 18.811 32.348 18.0989 32.8888 17.2876Z"
                                 fill="white" />
@@ -60,7 +62,7 @@
             </div>
         </nav>
     </header>
-    <main class="main">
+    <main class="main center">
         <section class="andrey__block">
             <div class="info__part">
                 <div class="name">Andrei Gross</div>
@@ -87,9 +89,10 @@
                 </div>
                 <div class="input_form">
                     <form id="email_top">
-                        <input type="email" placeholder="Email"></input>
+                        <input type="email" id="formInput" placeholder="Email"></input>
                     </form>
-                    <button class="email_submit_button" type="submit" form="email">Subscribe</button>
+                    <button id="subscribeButton" class="email_submit_button" type="submit"
+                        form="email">Subscribe</button>
                     <p class="text_form">I agree with the privacy politicy with sending this form</p>
                 </div>
             </div>
@@ -116,8 +119,8 @@
                 <article class="article__box">
                     <img class="photo" src="./img/picture1.png" alt="photo">
                     <div class="links">
-                        <a class="violet__link" href="#">Articles</a>
-                        <a class="black__link" href="#">19/12/2022</a>
+                        <div class="violet__link" href="#">Articles</div>
+                        <div class="black__link" href="#">19/12/2022</div>
                     </div>
                     <div class="content">
                         <div class="title">Best Gifts for Chefs—9 Cooking Gift Ideas</div>
@@ -129,8 +132,8 @@
                 <article class="article__box">
                     <img class="photo" src="img/picture2.png" alt="photo">
                     <div class="links">
-                        <a class="violet__link" href="#">Articles</a>
-                        <a class="black__link" href="#">19/12/2022</a>
+                        <div class="violet__link" href="#">Articles</div>
+                        <div class="black__link" href="#">19/12/2022</div>
                     </div>
                     <div class="content">
                         <div class="title">8 Best Gifts for Artists and Creatives—2022 Gift Guide</div>
@@ -153,12 +156,12 @@
             </div>
 
             <div class="other__info">
-                <div class="info">
+                <div class="info infoBlock" data-url="#">
                     <img class="article-img" src="img/Rectangle 474.png" alt="photo">
                     <div class="other__content">
                         <div class="info__links">
-                            <a href="#" class="purple__link">Reviews</a>
-                            <a href="#" class="black__link">30/11/2022</a>
+                            <p class="purple__link">Reviews</p>
+                            <p class="black__link">30/11/2022</p>
                         </div>
                         <div class="info__title">
                             <p class="title__info">Dan Brown MasterClass Review: What to Learn From Writing Thrillers
@@ -168,12 +171,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="info">
+                <div class="info infoBlock" data-url="#">
                     <img class="article-img" src="img/Rectangle 477.png" alt="photo">
                     <div class="other__content">
                         <div class="info__links">
-                            <a href="#" class="purple__link">Reviews</a>
-                            <a href="#" class="black__link">30/11/2022</a>
+                            <p class="purple__link">Reviews</p>
+                            <p class="black__link">30/11/2022</p>
                         </div>
                         <div class="info__title">
                             <p class="title__info">Neil deGrasse Tyson MasterClass Review: Scientific Thinking</p>
@@ -192,17 +195,17 @@
             </div>
             <div class="form__input">
                 <form id="email">
-                    <input type="email" placeholder="Email"></input>
+                    <input type="email" id="formInputMain" placeholder="Email"></input>
                 </form>
-                <button class="email_submit" type="submit" form="email">Subscribe</button>
+                <button class="email_submit" id="subscribeButtonMain" type="submit" form="email">Subscribe</button>
                 <p class="form__text">I agree with the privacy politicy with sending this form</p>
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer center">
         <article class="half__footer for_640px">
             <div class="footer__text main_title">CoursesGeeks</div>
-            <div class="footer__text grey_title">Privacy police</div>
+            <div class="footer__text grey_title">Privacy policy</div>
         </article>
         <article class="half__footer reverse_for_640px">
             <div class="footer__text grey_title">Cookie consent</div>
@@ -213,6 +216,8 @@
             <hr class="grey_line_footer">
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
