@@ -404,15 +404,18 @@ a {
 #email {
     display: flex;
     margin-bottom: 5px;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #email input {
     flex: 1;
     padding-left: 30px;
-    height: 46px;
+    /* height: 46px; */
     border: 1px solid #000000;
     border-radius: 30px;
     background-color: #B2F042;
+    line-height: 46px;
 }
 
 .email_submit {
@@ -592,6 +595,10 @@ a {
 
     .form__input {
         width: 100%;
+    }
+
+    #email {
+        gap: 10px;
     }
 
     .footer {
@@ -833,13 +840,15 @@ a {
 
     #email {
         margin-bottom: 0px;
+        gap: 5px;
     }
 
     #email input {
         height: 29px;
         font-size: 14px;
-        line-height: 17px;
+        /* line-height: 17px; */
         padding-left: 15px;
+        line-height: 30px;
     }
 
     .email_submit {
