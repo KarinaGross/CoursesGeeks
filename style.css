@@ -346,15 +346,18 @@ a {
 #email_top {
     display: flex;
     /* margin-bottom: 5px; */
+    flex-direction: column;
+    gap: 15px;
 }
 
 #email_top input {
     flex: 1;
     padding-left: 30px;
-    height: 46px;
+    /* height: 46px; */
     border: 1px solid #000000;
     border-radius: 30px;
     background-color: #B2F042;
+    line-height: 46px;
 }
 
 input:focus {
@@ -715,15 +718,18 @@ input:focus {
 #email {
     display: flex;
     margin-bottom: 5px;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #email input {
     flex: 1;
     padding-left: 30px;
-    height: 46px;
+    /* height: 46px; */
     border: 1px solid #000000;
     border-radius: 30px;
     background-color: #B2F042;
+    line-height: 46px;
 }
 
 .email_submit {
@@ -1162,9 +1168,14 @@ input:focus {
         margin-bottom: 23px;
     }
 
+    #email_top {
+        gap: 5px;
+    }
+
     #email_top input {
         height: 30px;
         padding-left: 15px;
+        line-height: 30px;
     }
 
     .email_submit_button {
@@ -1309,13 +1320,15 @@ input:focus {
 
     #email {
         margin-bottom: 0px;
+        
     }
 
     #email input {
         height: 29px;
         font-size: 14px;
-        line-height: 17px;
+        /* line-height: 17px; */
         padding-left: 15px;
+        line-height: 30px;
     }
 
     .email_submit {
