@@ -51,4 +51,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    var infoBlocks = document.querySelectorAll('.articleBox');
+
+    infoBlocks.forEach(function (block) {
+        block.addEventListener('click', function () {
+            var url = block.dataset.url; // Получаем значение атрибута data-url
+            window.location.href = url; // Перенаправляем пользователя
+            // alert('Link is clicked!');
+        });
+    });
+});
+
 
