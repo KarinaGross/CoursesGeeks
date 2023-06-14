@@ -84,16 +84,31 @@ a {
 .link__articles {
     border: 1px solid white;
     background: #B286FD;
+    transition: .3s;
+}
+
+.link__articles:hover {
+    background: #995EFF;
 }
 
 .link__reviews {
     color: #000000;
     background: #B2F042;
+    transition: .3s;
+}
+
+.link__reviews:hover {
+    background: #96DC18;
 }
 
 .link__about {
     color: #000000;
     background: #FFFFFF;
+    transition: .3s;
+}
+
+.link__about:hover {
+    background: #CECECE;
 }
 
 .link__forum {
@@ -101,6 +116,23 @@ a {
     background: #262626;
 }
 
+.vigit-hover path {
+    transition: .3s;
+}
+
+.vigit-hover circle {
+    transition: .3s;
+}
+
+.vigit-hover:hover path {
+    fill: #FFF;
+    opacity: .7;
+}
+
+.vigit-hover:hover circle {
+    stroke: #FFF;
+    opacity: .7;
+}
 
 .wrapper {
     display: none;
@@ -208,6 +240,10 @@ a {
 
     display: flex;
     flex-direction: column;
+}
+
+.article__box:hover {
+    cursor: pointer;
 }
 
 .first__box {
@@ -369,6 +405,11 @@ a {
     line-height: 24px;
 
     padding: 10px 50px;
+    transition: .3s;
+}
+
+.link_read_more:hover {
+    background-color: #995EFF;
 }
 
 .form {
@@ -472,6 +513,11 @@ a {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    transition: .3s;
+}
+
+.footer__text:hover {
+    background-color: #252525;
 }
 
 .footer__line {
