@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+input.input_placeholder::-webkit-input-placeholder {color:#000000 ; opacity:.5;}/* webkit */
+input.input_placeholder::-moz-placeholder {color:#000000 ; opacity:.5;}/* Firefox 19+ */
+input.input_placeholder:-moz-placeholder {color:#000000 ; opacity:.5;}/* Firefox 18- */
+input.input_placeholder:-ms-input-placeholder {color:#000000 ; opacity:.5;}/* IE */
+
 * {
     padding: 0;
     margin: 0;
@@ -114,6 +119,7 @@ a {
 .link__forum {
     border: 1px solid white;
     background: #262626;
+    pointer-events: none;
 }
 
 .vigit-hover path {
@@ -191,6 +197,7 @@ a {
     opacity: 0; 
     max-height: 0px;
     font-size: 0px;
+    z-index: 10;
 }
 
 .menu_link {
@@ -457,6 +464,8 @@ a {
     border-radius: 30px;
     background-color: #B2F042;
     line-height: 46px;
+    font-size: 20px;
+    outline: 0;
 }
 
 .email_submit {
@@ -895,6 +904,7 @@ a {
         /* line-height: 17px; */
         padding-left: 15px;
         line-height: 30px;
+        font-size: 14px;
     }
 
     .email_submit {
