@@ -1,0 +1,156 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 5px;
+}
+
+.half__footer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 30px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: #1E1E1E;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.footer__text:hover {
+    background-color: #252525;
+}
+
+.footer__line {
+    display: none;
+}
+
+@media (min-width: 640px) and (max-width: 1200.99px) {
+    .footer {
+        position: relative;
+        gap: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .half__footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 41px;
+        width: auto;
+    }
+
+    .for_640px {
+        align-items: flex-start;
+    }
+
+    .footer__text {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .main_title {
+        font-weight: 500;
+    }
+
+    .reverse_for_640px {
+        flex-direction: column-reverse;
+        align-items: self-end;
+    }
+
+    .year {
+        width: 33.478%;
+    }
+
+    .grey_title {
+        border-color: #808080;
+        color: #808080;
+    }
+
+    .footer__line {
+        display: inline;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+
+    .grey_line_footer {
+        background-color: #808080;
+        border: 0;
+        height: 1px;    
+    }
+}
+
+@media (min-width: 320px) and (max-width: 639.9px) {
+    .footer {
+        position: relative;
+        gap: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .half__footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 21px;
+        width: auto;
+    }
+
+    .for_640px {
+        align-items: flex-start;
+    }
+
+    .footer__text {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 5px 20px;
+    }
+
+    .main_title {
+        font-weight: 500;
+    }
+
+    .reverse_for_640px {
+        flex-direction: column-reverse;
+        align-items: self-end;
+    }
+
+    .year {
+        width: 33.478%;
+    }
+
+    .grey_title {
+        border-color: #808080;
+        color: #808080;
+    }
+
+    .footer__line {
+        display: inline;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+
+    .grey_line_footer {
+        background-color: #808080;
+        border: 0;
+        height: 1px;    
+    }
+}
