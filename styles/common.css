@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Neue Montreal';
-    src: url(../fonts/NeueMontreal-Regular.otf) format('opentype');
+    src: url(../resources/fonts/NeueMontreal-Regular.otf) format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Neue Montreal';
-    src: url(../fonts/NeueMontreal-Medium.otf) format('opentype');
+    src: url(../resources/fonts/NeueMontreal-Medium.otf) format('opentype');
     font-weight: 500;
     font-style: normal;
 }
@@ -16,6 +16,49 @@ input.input_placeholder::-webkit-input-placeholder {color:#000000 ; opacity:.5;}
 input.input_placeholder::-moz-placeholder {color:#000000 ; opacity:.5;}/* Firefox 19+ */
 input.input_placeholder:-moz-placeholder {color:#000000 ; opacity:.5;}/* Firefox 18- */
 input.input_placeholder:-ms-input-placeholder {color:#000000 ; opacity:.5;}/* IE */
+
+:root {
+    --font-size-text-smallest: 10px;
+    --font-size-text-little: 12px;
+    --font-size-text-small: 14px;
+    --font-size-text-medium-1: 16px;
+    --font-size-text-medium-2: 20px;
+    --font-size-text-large: 24px;
+    --font-size-headline-little: 28px;
+    --font-size-headline-small-1: 32px;
+    --font-size-headline-small-2: 36px;
+    --font-size-headline-medium-1: 45px;
+    --font-size-headline-medium-2: 48px;
+    --font-size-headline-medium-3: 50px;
+    --font-size-headline-medium-4: 52px;
+    --font-size-headline-large-1: 70px;
+    --font-size-headline-large-2: 91px;
+    --font-size-headline-large-3: 96px;
+    --font-size-headline-large-4: 110px;
+
+    --font-weight-small: 400;
+    --font-weight-large: 500;
+    
+    --main-menu-bg-color: #1E1E1E;
+    --main-black-color: #101010;
+    --main-violet-color: #B286FD;
+    --main-green-color: #B2F042;
+    --main-white-color: #FFFFFF;
+    --main-grey-color: #262626;
+    --hover-color-violet: #995EFF;
+    --hover-color-green: #96DC18;
+    --hover-color-white: #CECECE;
+    --line-color: #808080;
+    --black-color: #000000;
+
+    --border-radius-small: 10px;
+    --border-radius-medium: 20px;
+    --border-radius-large: 30px;
+
+    --gap-small: 5px;
+    --gap-large: 10px;
+
+}
 
 * {
     padding: 0;
@@ -28,6 +71,7 @@ body {
     margin: 0px 100px;
 
     font-family: 'Neue Montreal';
+    font-style: normal;
 }
 
 a {
