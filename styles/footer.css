@@ -1,10 +1,12 @@
+@import url(./common.css);
+
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
-    gap: 5px;
+    gap: var(--gap-small);
 }
 
 .half__footer {
@@ -21,14 +23,14 @@
     padding: 8px 30px;
 
     border: 1px solid #FFFFFF;
-    border-radius: 30px;
-    background-color: #1E1E1E;
+    border-radius: var(--border-radius-large);
+    background-color: var(--main-menu-bg-color);
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: var(--font-weight-small);
+    font-size: var(--font-size-text-medium-2);
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--main-white-color);
     transition: .3s;
 }
 
@@ -61,12 +63,12 @@
     }
 
     .footer__text {
-        font-size: 24px;
+        font-size: var(--font-size-text-large);
         line-height: 29px;
     }
 
     .main_title {
-        font-weight: 500;
+        font-weight: var(--font-weight-large);
     }
 
     .reverse_for_640px {
@@ -79,8 +81,8 @@
     }
 
     .grey_title {
-        border-color: #808080;
-        color: #808080;
+        border-color: var(--line-color);
+        color: var(--line-color);
     }
 
     .footer__line {
@@ -91,7 +93,7 @@
     }
 
     .grey_line_footer {
-        background-color: #808080;
+        background-color: var(--line-color);
         border: 0;
         height: 1px;    
     }
@@ -118,13 +120,13 @@
     }
 
     .footer__text {
-        font-size: 16px;
+        font-size: var(--font-size-text-medium-1);
         line-height: 19px;
         padding: 5px 20px;
     }
 
     .main_title {
-        font-weight: 500;
+        font-weight: var(--font-weight-large);
     }
 
     .reverse_for_640px {
@@ -137,8 +139,8 @@
     }
 
     .grey_title {
-        border-color: #808080;
-        color: #808080;
+        border-color: var(--line-color);
+        color: var(--line-color);
     }
 
     .footer__line {
@@ -149,7 +151,7 @@
     }
 
     .grey_line_footer {
-        background-color: #808080;
+        background-color: var(--line-color);
         border: 0;
         height: 1px;    
     }
