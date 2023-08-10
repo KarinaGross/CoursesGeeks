@@ -89,7 +89,7 @@
 
     /* font-style: normal; */
     font-weight: var(--font-weight-small);
-    font-size: var(--font-size-text-medium-2);
+    font-size: var(--font-size-text-medium-3);
     line-height: 24px;
     text-align: center;
 
@@ -125,7 +125,7 @@
     }
 
     .main__text {
-        font-size: var(--font-size-text-medium-2);
+        font-size: var(--font-size-text-medium-3);
         line-height: 110%;
     }
 
