@@ -84,7 +84,7 @@
 }
 
 .white__block {
-    border: 1px solid var(--black-colo);
+    border: 1px solid var(--black-color);
     border-radius: var(--border-radius-large);
 
     /* font-style: normal; */
