@@ -22,11 +22,13 @@ input.input_placeholder:-ms-input-placeholder {color:#000000 ; opacity:.5;}/* IE
     --font-size-text-little: 12px;
     --font-size-text-small: 14px;
     --font-size-text-medium-1: 16px;
-    --font-size-text-medium-2: 20px;
+    --font-size-text-medium-2: 18px;
+    --font-size-text-medium-3: 20px;
     --font-size-text-large: 24px;
     --font-size-headline-little: 28px;
     --font-size-headline-small-1: 32px;
     --font-size-headline-small-2: 36px;
+    --font-size-headline-small-3: 38px;
     --font-size-headline-medium-1: 45px;
     --font-size-headline-medium-2: 48px;
     --font-size-headline-medium-3: 50px;
