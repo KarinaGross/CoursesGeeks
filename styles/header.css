@@ -14,7 +14,7 @@
     height: 45px;
 }
 
-.links_vigits {
+.links-vigits {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,7 +38,7 @@
     color: var(--main-white-color);
 }
 
-.link_courses_geeks {
+.link_courses-geeks {
     font-size: var(--font-size-text-large);
     line-height: 29px;
 
