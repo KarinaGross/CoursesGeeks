@@ -1,10 +1,10 @@
-/* @import url(./styles/common.css); */
+/* @import url(./styles/common.css);
 
 @import url(./styles/header.css);
 
 @import url(./styles/form.css);
 
-@import url(./styles/footer.css);
+@import url(./styles/footer.css); */
 
 .andrey__block {
     background: var(--main-violet-color);
@@ -25,7 +25,6 @@
     background: var(--main-black-color);
     border-radius: var(--border-radius-large);
     color: var(--main-white-color);
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-large-4);
     line-height: 132px;
@@ -37,7 +36,6 @@
     border-radius: var(--border-radius-large);
     padding: 30px 20px;
 
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-medium-4);
     line-height: 110%;
@@ -71,8 +69,6 @@
 
 .white_block_text {
     width: 49.627%;
-
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-medium-2);
     line-height: 110%;
@@ -103,11 +99,10 @@
     background: var(--main-green-color);
     border-radius: var(--border-radius-large);
     padding: 30px;
-    width: 83.894%;
+    width: 50%;
 }
 
 .title_form {
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-medium-2);
     line-height: 110%;
@@ -140,24 +135,20 @@
     outline: 0;
 }
 
-input:focus {
+/* input:focus {
     outline: none;
     border: 1px solid var(--main-green-color);
-}
+} */
 
 .email_submit_button {
     background: var(--black-color);
     border-radius: var(--border-radius-large);
     border: var(--black-color);
-
-    /* font-style: normal; */
     font-weight:var(--font-weight-small);
     font-size: var(--font-size-text-medium-3);
     line-height: 24px;
     color: var(--main-white-color);
-
     padding: 11px 0;
-
     transition: .3s;
 }
 
@@ -166,7 +157,6 @@ input:focus {
 }
 
 .text_form {
-    /* font-style: normal; */
     font-weight: var(--font-weight-large);
     font-size: var(--font-size-text-medium-1);
     line-height: 19px;
@@ -182,7 +172,7 @@ input:focus {
     background: var(--main-grey-color);
     border-radius: var(--border-radius-large);
     padding: 30px;
-    width: 83.893%;
+    width: 50%;
 
     color: var(--main-white-color);
 }
@@ -196,7 +186,6 @@ input:focus {
 .top_part_text {
     width: 35.91%;
 
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-text-medium-3);
     line-height: 24px;
@@ -204,7 +193,6 @@ input:focus {
 }
 
 .forum_status {
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-text-medium-3);
     line-height: 24px;
@@ -218,7 +206,6 @@ input:focus {
 }
 
 .forum_title {
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-medium-2);
     line-height: 110%;
@@ -234,11 +221,10 @@ input:focus {
 }
 
 .subtitle {
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-small-1);
     line-height: 38px;
-}
+} 
 
 .white__button {
     background: #D7D9DD;
@@ -246,7 +232,6 @@ input:focus {
     padding: 6px 31px;
     height: 19px;
 
-    /* font-style: normal; */
     font-weight: var(--font-weight-large);
     font-size: var(--font-size-text-medium-1);
     line-height: 19px;
@@ -280,10 +265,18 @@ input:focus {
 
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
-.article__box:hover {
+/* .article__box:hover {
     cursor: pointer;
+} */
+
+.photo {
+    border-radius: var(--border-radius-large);
+    margin-bottom: 25px;
+    width: 100%;
+    height: auto;
 }
 
 .links {
@@ -298,7 +291,7 @@ input:focus {
     background: var(--main-violet-color);
     border-radius: var(--border-radius-large);
 
-    /* font-style: normal; */
+    font-style: normal;
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-text-small);
     line-height: 17px;
@@ -310,22 +303,15 @@ input:focus {
     border: 1px solid var(--main-white-color);
     border-radius: var(--border-radius-large);
 
-    /* font-style: normal; */
+    font-style: normal;
     font-weight:var(--font-weight-small);
     font-size: var(--font-size-text-small);
     line-height: 17px;
     color: var(--main-white-color);
 }
 
-.photo {
-    border-radius: var(--border-radius-large);
-    margin-bottom: 25px;
-    width: 100%;
-    height: auto;
-}
-
 .content {
-    /* font-style: normal; */
+    font-style: normal;
     color: var(--main-white-color);
 
     padding-top: 10px;
@@ -436,14 +422,14 @@ input:focus {
     border-radius: var(--border-radius-large);
 }
 
-.black__link {
+/* .black__link {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4px 20px;
     border: 1px solid var(--main-white-color);
     border-radius: var(--border-radius-large);
-}
+} */
 
 .info__title {
     /* font-style: normal; */
