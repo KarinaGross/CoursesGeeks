@@ -141,15 +141,13 @@
     border-radius: 0px 0px 20px 20px;
 
     font-weight: var(--font-weight-large);
-    /* font-size: var(--font-size-headline-medium-2); возможно как раз эта строка лишняя, т.к. на 174 строке при нажатии на check шрифт становится = 48px */
     line-height: 58px;
     color: var(--main-white-color);
     text-align: center;
     transition: .5s all;
 
-    opacity: 0; 
-    max-height: 0px;
-    /* font-size: 0px; */ /*не знаю зачем эта строка, возможно она нужна*/
+    /* opacity: 0; 
+    max-height: 0px; */
     z-index: 10;
 }
 
@@ -165,8 +163,8 @@
 }
 
 #check-menu:checked ~ .main-menu {
-    opacity: 1; 
-    max-height: 600px;
+    /* opacity: 1; 
+    max-height: 600px; */
     font-size: var(--font-size-headline-medium-2);
     padding: 15px 0px 148px;
     visibility: visible;
@@ -192,7 +190,7 @@
 
 @media (min-width: 320px) and (max-width: 639.9px) {
     .header {
-        position: relative;
+        /* position: relative; */
     }
 
     .nav {
@@ -225,3 +223,4 @@
         line-height: 34px;
     }
 } 
+

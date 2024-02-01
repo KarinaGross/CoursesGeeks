@@ -11,11 +11,10 @@
 }
 
 .form__title {
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-headline-large-1);
     line-height: 100%;
-    color: #000000;
+    color: var(--main-black-color);
     margin-bottom: 40px;
 }
 
@@ -36,8 +35,7 @@
 #email input {
     flex: 1;
     padding-left: 30px;
-    /* height: 46px; */
-    border: 1px solid #000000;
+    border: 1px solid var(--main-black-color);
     border-radius: var(--border-radius-large);
     background-color: var(--main-green-color);
     line-height: 46px;
@@ -45,14 +43,13 @@
     outline: 0;
 }
 
-.input::placeholder {color: #000000;opacity: .5;}
+.input::placeholder {color: var(--main-black-color);opacity: .5;}
 
 .email_submit {
-    background: #000000;
+    background: var(--main-black-color);
     border-radius: var(--border-radius-large);
-    border: black;
+    border: var(--main-black-color);
 
-    /* font-style: normal; */
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-text-medium-3);
     line-height: 24px;
@@ -66,11 +63,10 @@
 }
 
 .form__text {
-    /* font-style: normal; */
     font-weight: var(--font-weight-large);
     font-size: var(--font-size-text-medium-1);
     line-height: 19px;
-    color: #000000;
+    color: var(--main-black-color);
     opacity: 0.5;
 }
 
